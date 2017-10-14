@@ -42,7 +42,8 @@ header li {
 .sidebar {
 	width: 40%;/*40% of total .container margin (1000px)= 400px*/ 
 	float: right;
-	background-color: orange;
+	background-color: #FF9800;
+	background-image: url(../images/sidebar-bg.png);
 	padding: 30px;
 	color: white;
 }
@@ -88,7 +89,8 @@ a:hover {
 	}
 }
 
-@media (max-width: 500px) {
+
+@media (max-width: 600px) {
 	.sidebar {
 		display: none;
 	}
