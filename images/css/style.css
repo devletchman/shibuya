@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	line-height: 1.5;
+	margin: 0;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+header {
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	background-color: teal;
+	background-image: url(../images/shibuya2.jpg);
+	background-size: cover;
+	padding: 40px 0;
+	margin-bottom: 10px;
+}
+
+header ul {
+	padding: 0;
+}
+
+header li {
+	margin: 10px;
+	display: inline;
+}
+
+.container {
+	width: 1000px;
+	border: 0px solid red;
+	margin: 0 auto; /*to give 0 margin top and bottom, and automatic centralizing margin*/ 
+}
+
+.sidebar {
+	width: 35%;/*40% of total .container margin (1000px)= 400px*/ 
+	float: right;
+	background-color: #FF9800;
+	background-image: url(../images/sidebar-bg.png);
+	padding: 30px;
+	color: white;
+}
+
+.chapters {
+	width: 65%;/*60% of total .container margin (1000px)= 600px*/ 
+	float: left;
+}
+
+footer{
+	clear: both;
+	background-color: grey;
+	text-align: center;
+	padding: 40px 0;
+}
+
+
+a {
+	color: white;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+
+a:hover {
+	border-bottom: 1px solid white;
+}
+
+article {
+	width: 50%;
+	float: left;
+	padding: 0 20px;
+	}
+
+article img {
+	width: 80%;
+}
+	
+@media (max-width: 900px) {
+	.sidebar {
+		width: 20%;
+		float: left;
+	}
+}
+
+@media (max-width: 700px) {
+	.sidebar {
+		display: none;
+	}
+	.chapters, .container {
+	width: 100%;
+}
+
+
+@media (max-width: 600px) {
+	article {
+		width: 100%;
+	}
+}
+
