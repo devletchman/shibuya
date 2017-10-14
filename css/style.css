@@ -18,10 +18,10 @@ header {
 	text-transform: uppercase;
 	color: white;
 	background-color: teal;
-	background-image: url(../images/header-bg.jpg);
+	background-image: url(../images/shibuya2.jpg);
 	background-size: cover;
 	padding: 40px 0;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 
 header ul {
@@ -40,7 +40,7 @@ header li {
 }
 
 .sidebar {
-	width: 40%;/*40% of total .container margin (1000px)= 400px*/ 
+	width: 35%;/*40% of total .container margin (1000px)= 400px*/ 
 	float: right;
 	background-color: #FF9800;
 	background-image: url(../images/sidebar-bg.png);
@@ -48,29 +48,18 @@ header li {
 	color: white;
 }
 
-.recipes {
-	width: 60%;/*60% of total .container margin (1000px)= 600px*/ 
+.chapters {
+	width: 65%;/*60% of total .container margin (1000px)= 600px*/ 
 	float: left;
-
 }
 
-article {
-	width: 50%;
-	float: left;
-	padding: 0 20px;
-}
-
-article img {
-	width: 100%;
-}
-
-
-footer {
+footer{
 	clear: both;
 	background-color: grey;
 	text-align: center;
 	padding: 40px 0;
 }
+
 
 a {
 	color: white;
@@ -82,6 +71,16 @@ a:hover {
 	border-bottom: 1px solid white;
 }
 
+article {
+	width: 50%;
+	float: left;
+	padding: 0 20px;
+	}
+
+article img {
+	width: 80%;
+}
+	
 @media (max-width: 900px) {
 	.sidebar {
 		width: 20%;
@@ -89,18 +88,18 @@ a:hover {
 	}
 }
 
-
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 	.sidebar {
 		display: none;
 	}
-	.recipes, .container {
+	.chapters, .container {
 	width: 100%;
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 	article {
 		width: 100%;
 	}
 }
+
