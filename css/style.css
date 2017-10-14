@@ -35,7 +35,7 @@ header li {
 
 .container {
 	width: 1000px;
-	border: 1px solid red;
+	border: 0px solid red;
 	margin: 0 auto; /*to give 0 margin top and bottom, and automatic centralizing margin*/ 
 }
 
